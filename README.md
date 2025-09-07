@@ -69,7 +69,7 @@ This project is an **AI-powered advisory system** designed to help farmers get i
 ### 4. Output
 - Advisory delivered as:
   - **Text** in Malayalam
-  - Optional **audio** (Text-to-Speech) for illiterate farmers
+  - **Audio** (Text-to-Speech) for illiterate farmers (if needed)
 
 ### 5. Escalation & Feedback
 - Low confidence queries → flagged to agriculture officers
@@ -77,7 +77,7 @@ This project is an **AI-powered advisory system** designed to help farmers get i
 
 ---
 
-## Tech Stack
+## Tech Stack (Not Yet Finalised)
 
 ### Backend
 - **Node.js** (API endpoints, backend logic)
@@ -101,7 +101,7 @@ This project is an **AI-powered advisory system** designed to help farmers get i
 
 ---
 
-## Deployment
+## Deployment (Not Yet Finalised)
 - **Prototype phase**: Google Colab for AI model inference
 - **Backend**: Node.js server (for integration with frontend)
 - **Frontend**: Web or mobile app
