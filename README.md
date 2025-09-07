@@ -77,23 +77,23 @@ This project is an **AI-powered advisory system** designed to help farmers get i
 
 ---
 
-## Tech Stack (Not Yet Finalised)
+## Tech Stack
 
 ### Backend
-- **Node.js** (API endpoints, backend logic)
+- **Node.js** (API endpoints, backend logic) (Not Yet Finalised)
 - **Python** (AI processing)
   - OpenAI Whisper (voice-to-text)
   - PyTorch / YOLOv8 (image processing)
   - LLaMA 3 (8B) fine-tuned (text advisory)
-  - Translation: IndicTrans2 or Google Translate fallback
-  - For Later stage: gTTS or Coqui TTS (text-to-speech)
+  - Translation: IndicTrans2 or Google Translate fallback (Not Yet Finalised)
+  - For Later stage: gTTS or Coqui TTS (text-to-speech) (Not Yet Finalised)
 
-### Frontend
+### Frontend (Not Yet Finalised)
 - Web interface or mobile-friendly UI (prototype phase)
 - Input forms for text, voice, and image upload
 - Display advisory output and optional audio playback
 
-### Database
+### Database (Not Yet Finalised)
 - MongoDB / PostgreSQL for:
   - Farmer profiles and factors
   - Query and feedback storage
