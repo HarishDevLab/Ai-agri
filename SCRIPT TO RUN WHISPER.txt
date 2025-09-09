@@ -10,4 +10,4 @@ model = whisper.load_model("large")  #Model!…….
 result = model.transcribe("my_file_name.mp3", task="translate", language="ml")
 print(result["text"])
 
-'''once runned this line "model = whisper.load_model("large")", no need to run it again, just run the line "result = model.transcribe("my_file_name.mp3", task="translate", language="ml")" ,to get the output need atleast 10 GB in GPU.'''
+#Once runned this line "model = whisper.load_model("large")", no need to run it again, just run the line "result = model.transcribe("my_file_name.mp3", task="translate", language="ml")" ,to get the output need atleast 10 GB in GPU.
