@@ -18,7 +18,7 @@ This project is an **AI-powered advisory system** designed to help farmers get i
 - Outputs a **structured report** (disease/pest type, affected area, confidence score) for LLM processing.
 
 ### 3. AI-Powered Knowledge Engine
-- **Main LLM**: Open-source **LLaMA 3 (8B)** fine-tuned with agriculture datasets.
+- **Main LLM**: Open-source **Deepseek R1 (4B/8B)** fine-tuned with agriculture datasets.
 - Processes text queries and image AI reports to provide **personalized advice**.
 - Supports **translation workflow**:
   - Malayalam → English → LLM → English → Malayalam
@@ -60,9 +60,10 @@ This project is an **AI-powered advisory system** designed to help farmers get i
 - Preprocess image (OpenCV)
 - Detect and classify diseases/pests using YOLOv8
 - Generate structured report (disease, affected area, confidence)
+- CNN - feliciatea/ ML-Crop Disease Detection
 
 ### 3. LLM Processing
-- Text queries + structured image report + farmer factors → LLaMA 3 (8B)
+- Text queries + structured image report + farmer factors → Deepseek R1(8B)
 - LLM generates **tailored advisory** in English
 - Translate response → Malayalam (for farmer comprehension)
 
@@ -80,30 +81,29 @@ This project is an **AI-powered advisory system** designed to help farmers get i
 ## Tech Stack
 
 ### Backend
-- **Node.js** (API endpoints, backend logic) (Not Yet Finalised)
+- **Node.js** (API endpoints, backend logic)
 - **Python** (AI processing)
   - OpenAI Whisper (voice-to-text)
   - PyTorch / YOLOv8 (image processing)
-  - LLaMA 3 (8B) fine-tuned (text advisory)
+  - Deepseek R1 (8B) fine-tuned (text advisory)
   - Translation: IndicTrans2 or Google Translate fallback (Not Yet Finalised)
-  - For Later stage: gTTS or Coqui TTS (text-to-speech) (Not Yet Finalised)
+  
 
-### Frontend (Not Yet Finalised)
-- Web interface or mobile-friendly UI (prototype phase)
+### Frontend 
+- Web interface & mobile-friendly UI (prototype phase)
 - Input forms for text, voice, and image upload
 - Display advisory output and optional audio playback
 
-### Database (Not Yet Finalised)
-- MongoDB / PostgreSQL for:
+### Database 
+- MongoDB for:
   - Farmer profiles and factors
   - Query and feedback storage
   - Historical advisory data
 
 ---
 
-## Deployment (Not Yet Finalised)
+## Deployment
 - **Prototype phase**: Google Colab for AI model inference
 - **Backend**: Node.js server (for integration with frontend)
-- **Frontend**: Web or mobile app
-- **Deployment status**: Not yet finalized
-- Future production may use cloud hosting (GCP, AWS) or dedicated servers
+- **Frontend**: Web & mobile app
+
