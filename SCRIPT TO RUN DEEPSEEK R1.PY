@@ -37,8 +37,9 @@ def deepthink(prompt_text):
     )
     return output[0]["generated_text"]
 
-# Example usage
+'''# Example usage
 question = "QUESTION?"
-print(deepthink(question))
+print(deepthink(question))'''
+
 
 
