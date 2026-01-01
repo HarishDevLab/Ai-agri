@@ -1,0 +1,2 @@
+# THE SPEECH TO TEXT CONVERTOR 
+FOR DETAILS: [GITHUB OPENAI WHISPER](https://github.com/openai/whisper)
