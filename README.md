@@ -9,3 +9,4 @@ Paper: https://arxiv.org/abs/2107.10833
 ------------------------
 
 
+The binary files are available in the releaes section. [RELEASES](https://github.com/HarishDevLab/Ai-agri/releases/tag/binaries)
